@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Gothic+A1:wght@200;400;600&display=swap');
+h1, h2, h3{
+  color: #B94700;
+  font-family: DM Serif Text;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2{
+  font-size: 24px;
+}
+
+h3{
+  font-size: 20px;
+}
+
+p{
+  padding-bottom: 1em;
+}
+body {
+  color: #00594F;
+  background-color: #F2E7DD;
+  font-family: Gothic A1;
+  font-size: 16px;
+}
+
+.img-circle {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.btn-green{
+  color: #F2E7DD;
+  background-color: #00594F;
+  text-decoration: none;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+.btn-green:hover{
+  background-color: #F2E7DD;
+  color: #00594F;
+  border: 1px solid #00594F;
+  border-radius: 4px;
+}
+
+.card-beige{
+  background: #F2E7DD;
+  padding: 60px;
+  border-radius: 4px;
+  margin: 20px 70px;
+  box-shadow: 0px 10px 30px #00594f0f;
+}
+.text-align{
+  text-align: center;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#btn-social a{
+  font-size: 40px;
+  color: #00594F;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 556px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 200px;
+  }
+  .btn-green{
+    color: #F2E7DD;
+    background-color: #00594F;
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 4px;
+    display: block;
+    margin: 0.4em auto;
+  }
+  .list-inline li {
+    display: block;
+    padding: 0px 20px;
+  }
+}
