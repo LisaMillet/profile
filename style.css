@@ -75,22 +75,15 @@ body {
   color: #00594F;
 }
 
-@media (max-width: 960px) {
-  /* Pour un écran < 960px, cette classe CSS s'applique */
+@media (max-width: 1286px) {
+  /* Pour un écran < 1286px, cette classe CSS s'applique */
   .container {
     width: 700px;
   }
 }
 
-@media (max-width: 720px) {
-  /* Pour un écran < 720px, cette classe CSS s'applique */
-  .container {
-    width: 500px;
-  }
-}
-
-@media (max-width: 556px) {
-  /* Pour un écran < 540px, cette classe CSS s'applique */
+@media (max-width: 1020px) {
+  /* Pour un écran < 1020px, cette classe CSS s'applique */
   .container {
     width: 200px;
   }
