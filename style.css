@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Gothic+A1:wght@200;400;600&display=swap');
+.container {
+  width: 60%;
+}
 h1, h2, h3{
   color: #B94700;
   font-family: DM Serif Text;
@@ -40,6 +43,9 @@ body {
   text-decoration: none;
   padding: 15px 20px;
   border-radius: 4px;
+  display: block;
+  width: fit-content;
+  margin: 0.4em auto;
 }
 
 .btn-green:hover{
@@ -47,13 +53,14 @@ body {
   color: #00594F;
   border: 1px solid #00594F;
   border-radius: 4px;
+
 }
 
 .card-beige{
   background: #F2E7DD;
   padding: 60px;
   border-radius: 4px;
-  margin: 20px 300px;
+  margin: 20px auto;
   box-shadow: 0px 10px 30px #00594f0f;
 }
 .text-align{
@@ -75,27 +82,13 @@ body {
   color: #00594F;
 }
 
-@media (max-width: 1286px) {
-  /* Pour un écran < 1286px, cette classe CSS s'applique */
-  .container {
-    width: 700px;
-  }
-}
 
-@media (max-width: 1020px) {
+@media (max-width: 520px) {
   /* Pour un écran < 1020px, cette classe CSS s'applique */
-  .container {
+  /* .container {
     width: 200px;
-  }
-  .btn-green{
-    color: #F2E7DD;
-    background-color: #00594F;
-    text-decoration: none;
-    padding: 15px 20px;
-    border-radius: 4px;
-    display: block;
-    margin: 0.4em auto;
-  }
+  } */
+
   .list-inline li {
     display: block;
     padding: 0px 20px;
